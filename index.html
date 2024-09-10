@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+    <h1>formularios</h1>
+    <h2>trabajo practico 5: </h2>
+    <h3>¿Qué atributo se utiliza para especificar la URL a la que se enviarán los datos del formulario? </h3>
+    <h3>action</h3>
+    <h3>¿Cuál es el atributo que se utiliza para especificar el tipo de datos que se espera en un campo de entrada?</h3>
+    <h3>type</h3>
+    <h3>¿Cuál de los siguientes tipos de campo de entrada se utiliza para ingresar direcciones de correo electrónico?
+    </h3>
+    <h3>email</h3>
+    <h3>¿Cuál es el elemento HTML que se utiliza para asociar un texto descriptivo con un campo de entrada en un
+        formulario?</h3>
+    <h3>label</h3>
+    <h3>¿Cuál de las siguientes opciones es la etiqueta correcta para crear un botón de envío en un formulario?</h3>
+    <h3> input type="submit" </h3>
+    <h3>¿Cuál de los siguientes atributos se utiliza para hacer que un campo de entrada sea obligatorio en un
+        formulario?</h3>
+    <h3>required</h3>
+    <h3>¿Cuál de los siguientes elementos HTML se utiliza para crear una lista desplegable en un formulario?</h3>
+    <h3>input type="list"</h3>
+    <h3>¿Cuál de los siguientes tipos de campo de entrada se utiliza para ingresar un apellido?</h3>
+    <h3>text</h3>
+    <h3>¿Qué atributo se utiliza para definir un valor predeterminado en un campo de entrada de un formulario?</h3>
+    <h3>value</h3>
+    <h3>¿Qué son los métodos / verbos de petición HTTP? Dar ejemplos</h3>
+    <ul>
+        <li><b><u>get:</u></b>recupera datos</li>
+        <li><b><u>head:</u></b>pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
+        </li>
+        <li><b><u>post:</u></b> envia una entidad a un recurso en específico, causando a menudo un cambio en el estado
+            o efectos secundarios en el servidor</li>
+        <li><b><u>put:</u></b>reemplaza todas las representaciones actuales del recurso de destino con la carga</li>
+        <li><b><u>delete: </u></b>borra un recurso en específico</li>
+        <li><b><u>connect: </u></b>establece un túnel hacia el servidor identificado por el recurso</li>
+        <li><b><u>options: </u></b>es utilizado para describir las opciones de comunicación para el recurso de destino</li>
+        <li><b><u>trace: </u></b> realiza una prueba de bucle de retorno de mensaje</li>
+        <li><b><u>patch: </u></b>es utilizado para aplicar modificaciones parciales a un recurso</li>
+    </ul>
+    <h3>¿Qué son los códigos de estado de respuestas HTTP? Realizar una tabla con su clasificación.</h3>
+    <dl>
+        <dt><b><i>1xx:</i></b> Informacional</dt>
+        <dd></dd>
+        <dt><b><i>2xx:</i></b> ¡íÉxito!</dt>
+        <dd><u><i>200:</i></u> Éxito</dd>
+        <dt><b><i>3xx:</i></b> Re-dirección</dt>
+        <dd><u><i>301:</i></u> Re-dirección permanente <br> <u><i>302:</i></u> Encontrado</dd>
+        <dt><b><i>4xx:</i></b> Error del cliente</dt>
+        <dd><u><i>404:</i></u> No encontrado <br> <u><i>410:</i></u> Ya no existe <br> <u><i>451:</i></u>No disponible
+            por razones legales</dd>
+        <dt> <b><i>5xx:</i></b> Error de servidor</dt>
+    </dl>
+    <table>
+        <tr><th>1xx</th>
+            <th>2xx</th>
+            <th>3xx</th>
+            <th>4xx</th>
+            <th>5xx</th>
+        </tr>
+        <tr>
+            <td> informacional </td>
+       <td>exito</td>
+           <td>re-direccion</td>+
+           <td>error del cliente</td>
+           <td>error de servidor</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><b><u>200:</u></b>exito</td>
+            <td><b><u>301:</u></b>re-direccion permanente </td>
+            <td><b><u>404:</u></b>no encontrado <br> </td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><b><u>302:</u></b>encontrado</td>
+            <td><b><u>410:</u></b>ya no existe </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><b><u>451:</u></b>no disponible por razones legales</td>
+            <td></td>
+        </tr>
+    </table>
+    <form action="/registro" method="post">
+        <fieldset>
+            <legend>datos personal</legend>
+            <label for="nombre y apellido">nombre y apellido</label>
+            <input type="text" name="nombre y apellido" id="nombre y apellido">
+            
+
+
+    </form>
+</body>
+
+</html>
