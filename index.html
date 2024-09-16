@@ -95,14 +95,90 @@
             <td></td>
         </tr>
     </table>
+
+    <h2><i>concesionaria cipo 🚍</i></h2>
+
+    <p><a target="_blank" href="https://maps.app.goo.gl/dtrnz53NWhJATdBs5"><img src="assets/consecionario-autos.jpg" alt="cons" width="350px"></a></p> <h4><i>como llegar...</i></h4>
+
     <form action="/registro" method="post">
+
         <fieldset>
-            <legend>datos personal</legend>
-            <label for="nombre y apellido">nombre y apellido</label>
-            <input type="text" name="nombre y apellido" id="nombre y apellido">
+            <legend>datos personales</legend>
+
+            <label for="na">nombre y apellido</label>
+            <input type="text" name="na" id="na" required>
             
+            <label for="correo">correo electronico</label>
+            <input type="email" name="correo" id="correo" required>
 
+            <label for="nacimiento">fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento" required>
 
+            <label for="dni">Documento Nacional de Identidad</label>
+            <input type="number" name="dni" id="dni" required>
+
+            <label for="telefono">telefono</label>
+            <input type="tel" name="telefono" id="telefono" required>
+
+            <label for="x">usuario de X</label>
+            <input type="text" name="x" id="x" required>
+
+            <label for="ig">usuario de instagram</label>
+            <input type="text" name="ig" id="ig" required>
+
+            <label for="ciudad">ciudad</label>
+            <input type="text" name="ciudad" id="ciudad" required>
+
+            <label for="p">provincia</label>
+            <select name="provincia" id="provincia">
+            <option value="1">tierra del fuego</option>
+            <option value="2">chubut</option>
+            <option value="3">santa cruz</option>
+            <option value="4">rio negro</option>
+            <option value="5">neuquen</option>
+            <option value="6">mendoza</option>
+            <option value="7">la pampa</option>
+            <option value="8">buenos aires</option>
+            <option value="9">san luis</option>
+            <option value="10">cordoba</option>
+            <option value="11">santa fe</option>
+            <option value="12">entre rios</option>
+            <option value="13">chaco</option>
+            <option value="14">formosa</option>
+            <option value="15">misiones</option>
+            <option value="16">san juan</option>
+            <option value="17">corrientes</option>
+            <option value="18">la rioja</option>
+            <option value="19">salta</option>
+            <option value="20">jujuy</option>
+            <option value="21">tucuman</option>
+            <option value="22">santiago del estero</option>
+            <option value="23">catamarca</option>
+            <option value="24">caba</option>
+        </select>
+
+            <label for="1">que prefiere?</label>
+        <select name="1" id="1">
+            <option value="1">camioneta</option>
+            <option value="2">auto</option>
+        </select>
+
+        <label for="1">que marca prefiere?</label>
+         <select  name="provincia" id="provincia">
+            <option value="1">fiat</option>
+            <option value="2">chevrolet</option>
+            <option value="3">ram</option>
+            <option value="4">bmw</option>
+            <option value="5">ford</option>
+            <option value="6">toyota</option>
+            <option value="7">renault</option>
+            <option value="8">citroen</option>
+            <option value="9">Mercedes Benz</option>
+        </select>
+
+            <label for="p2">de color preciere su vehiculo?</label>
+            <input type="text" name="p2" id="p2">
+        </fieldset>
     </form>
 </body>
 
